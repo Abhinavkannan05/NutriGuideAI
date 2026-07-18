@@ -141,3 +141,17 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+# Dependencies
+node_modules/
+
+# Next.js build files
+.next/
+src/widgets/.next/
+
+# Build output
+dist/
+build/
+
+# Environment files
+.env
+.env.local
