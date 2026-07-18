@@ -2,17 +2,21 @@
 node_modules/
 src/widgets/node_modules/
 
-# Next.js
+# Next.js build files
 .next/
 src/widgets/.next/
 
-# Build output
-dist/
-build/
+# Nitro Studio
+.nitrostudio/
 
-# Environment
+# Environment files
 .env
 .env.local
+.env.*
 
 # Logs
 *.log
+
+# OS files
+.DS_Store
+Thumbs.db
